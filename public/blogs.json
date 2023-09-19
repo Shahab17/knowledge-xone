@@ -1,0 +1,53 @@
+[
+    {
+      "id": "12345",
+      "cover": "https://i.ibb.co/wYS9rRP/forest-lake.jpg",
+      "title": "The Secret of the Enchanted Forest",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/02vztH4/doe.jpg",
+      "posted_date": "2017-08-11",
+      "reading_time": 45,
+      "hashtags": ["fantasy", "adventure", "magic"]
+    },
+    {
+      "id": "54321",
+      "cover": "https://i.ibb.co/1ZZ1g9X/Snow-Queen.jpg",
+      "title": "Mystery at Moonlight Manor",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/jHWLy8H/moon.jpg",
+      "posted_date": "2017-08-15",
+      "reading_time": 30,
+      "hashtags": ["mystery", "detective", "thriller"]
+    },
+    {
+      "id": "98765",
+      "cover": "https://i.ibb.co/85Dkry4/adventures.jpg",
+      "title": "Lost in Time: A Historical Journey",
+      "author": "Emily Brown",
+      "author_img": "https://i.ibb.co/TPDwK5Q/fifth.jpg",
+      "posted_date": "2017-08-27",
+      "reading_time": 60,
+      "hashtags": ["history", "time travel", "adventure"]
+    },
+    {
+      "id": "45678",
+      "cover": "https://i.ibb.co/GvfchQN/Galactic.jpg",
+      "title": "The Galactic Odyssey",
+      "author": "David Johnson",
+      "author_img": "https://i.ibb.co/7zXQmNL/third.jpg",
+      "posted_date": "2020-07-28",
+      "reading_time": 75,
+      "hashtags": ["science fiction", "space", "exploration"]
+    },
+    {
+      "id": "13579",
+      "cover": "https://i.ibb.co/D1fSJfh/cooking.jpg",
+      "title": "Cooking Adventures: Culinary Delights",
+      "author": "Sarah Anderson",
+      "author_img": "https://i.ibb.co/D1fSJfh/cooking.jpg",
+      "posted_date": "2020-08-1",
+      "reading_time": 40,
+      "hashtags": ["cooking", "recipes", "foodie"]
+    }
+  ]
+  
