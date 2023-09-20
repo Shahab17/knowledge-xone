@@ -3,7 +3,7 @@
 const Bookmarks = () => {
     return (
         <div className="md:w-1/3">
-            <h4>Bookmarks</h4>
+            <h4 className="text-2xl">Bookmarks</h4>
         </div>
     );
 };
