@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import { FaBookmark } from 'react-icons/fa';
 
-const Blog = ({ blogData, handleAddToBookmarks}) => {
+const Blog = ({ blogData, handleAddToBookmarks }) => {
     const { title, cover, author, author_img, posted_date, reading_time, hashtags } = blogData;
     return (
         <div className='space-y-3 px-5'>
@@ -11,19 +11,19 @@ const Blog = ({ blogData, handleAddToBookmarks}) => {
             <div className='flex justify-between'>
                 <div className='flex '>
                     <img className='w-12 rounded-full' src={author_img} alt="" />
-                    <div className='ml-5'>
-                        <h5 className="text-2xl">{author}</h5>
+                    <div className='ml-2 lg:ml-5'>
+                        <h5 className=" lg:text-2xl">{author}</h5>
                         <p>{posted_date}</p>
                     </div>
                 </div>
-                <div>
+                <div className='items-center' >
                     <span>{reading_time} Min Read <button
-                    onClick={handleAddToBookmarks}
-                    className='ml-3 text-blue-700 text-xl'><FaBookmark></FaBookmark></button> </span>
+                        onClick={() => handleAddToBookmarks(blogData)}
+                        className='lg:ml-3 text-blue-700 text-xl'><FaBookmark></FaBookmark></button> </span>
                 </div>
             </div>
 
-            <h3 className="text-3xl">{title}</h3>
+            <h3 className="text-lg lg:text-3xl">{title}</h3>
 
             <p>
                 {
@@ -39,6 +39,7 @@ const Blog = ({ blogData, handleAddToBookmarks}) => {
 
 Blog.propTypes = {
     blogData: PropTypes.object.isRequired,
+    handleAddToBookmarks: PropTypes.func.isRequired,
 }
 
 export default Blog;
